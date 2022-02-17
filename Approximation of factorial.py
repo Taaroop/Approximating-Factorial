@@ -9,12 +9,12 @@ def factorial(n):
 
 def taaroop(n):
     k = n/2
-    f = (((k**2)-((2*(k**2))/6))**(k-1))*k
+    f = (((k**2)-((2*(k**2))/6))**(k-1))*k # The Taaroop Approximation, if you may!
     return f
 
 
 end = 160
-base = 100
+base = 2 # Any positive integer works
 li = []
 li_1 = []
 li_2 = []
