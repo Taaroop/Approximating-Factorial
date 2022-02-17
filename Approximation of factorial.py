@@ -8,7 +8,7 @@ def factorial(n):
     return p
 
 def taaroop(n):
-    k = n/2
+    k = (n+1)/2
     f = (((k**2)-(k*((2*k)-1)/6))**(k-1))*k # The Taaroop Approximation!
     return f
 
